@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<title>JS_8</title>
+	<link rel="stylesheet" href="style8.css">
+
+</head>
+<body>
+
+<p>	Задание. Разработайте скрипт, который получает из input введенный url адрес. Адрес обрабатывается таким образом, что введенные имена приводятся к виду: </p>
+<p>Ввели</p>
+<p>•	http://primer.ua </p>
+<p>•	http://www.primer.ua</p>
+<p>•	https://primer.ua</p>
+<p>Получили: primer (удаляются протоколы и локальные зоны)</p>
+<p>Затем введенная строка обрабатывается по правилам:</p>
+<p>•	все символы о или О заменяются на 0 (нуль)</p>
+<p>•	l заменяются на единицу (символ эль на единицу)</p>
+<p>•	все символы «i» заменяются на 3</p>
+<p>•	все буквы s заменяются на 5 </p>
+<p>•	к результирующей строке добавляется случайный набор из 4-х символов.</p>
+<p>Результат – выводится на экран.</p>
+<p>Для реализации использовать jQuery.</p>
+<p></p>
+
+<input id="input1" type="text" value="https://www.googleis.com.ua">
+<button id="button1">On</button>
+<p id="result1">Result:         </p>
+
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script8.js"></script>
+
+
+</body>
+</html>
